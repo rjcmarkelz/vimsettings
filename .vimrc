@@ -23,4 +23,6 @@ set cursorline
 set showmatch
 
 " enable all Python Syntax Highlighting
-let python_hightlight_all=1 
+let python_hightlight_all=1
+
+colorscheme monokai
