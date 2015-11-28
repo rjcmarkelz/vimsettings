@@ -25,4 +25,8 @@ set showmatch
 " enable all Python Syntax Highlighting
 let python_hightlight_all=1
 
+" enable the monokai color scheme
 colorscheme monokai
+
+" terminal to 256
+set t_co=256
