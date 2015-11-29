@@ -7,6 +7,12 @@ set number
 "set tabes to have 4 spaces
 set ts=4
 
+set et
+
+set sw=4
+
+set smarttab
+
 " indent when moving to next line while writing code
 set autoindent
 
