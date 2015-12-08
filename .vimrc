@@ -1,3 +1,13 @@
+set nocompatible
+filetype off
+
+" runtime path for plugin manager
+set rtp+=/.vim/bundle/Vundle.vim
+call vundle#begin() " keep vundle between begin and end
+
+Plugin 'VundleVim/Vundle.vim'
+
+call vundle#end()
 "syntax highlighting
 syntax enable
 
