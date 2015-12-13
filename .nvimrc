@@ -1,11 +1,13 @@
 "plugins
 call plug#begin('~/.nvim/plugged')
 
-Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
-Plug 'plasticboy/vim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'tpope/vim-markdown'
+Plug 'mikewest/vimroom'
+Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-multiple-cursors'
 Plug 'ivanov/vim-ipython'
 Plug 'klen/python-mode'
@@ -49,4 +51,16 @@ let python_hightlight_all=1
 colorscheme monokai
 
 " terminal to 256
-set t_co=256
+set t_co=256 
+
+" split screens
+set splitbelow
+set splitright
+
+" navigate between splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+
