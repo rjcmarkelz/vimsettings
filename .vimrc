@@ -1,13 +1,19 @@
-set nocompatible
-filetype off
+"plugins
+call plug#begin('~/.vim/plugged')
 
-" runtime path for plugin manager
-set rtp+=/.vim/bundle/Vundle.vim
-call vundle#begin() " keep vundle between begin and end
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
+Plug 'godlygeek/tabular'
+Plug 'tpope/vim-markdown'
+Plug 'mikewest/vimroom'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-multiple-cursors'
+Plug 'ivanov/vim-ipython'
+Plug 'klen/python-mode'
 
-Plugin 'VundleVim/Vundle.vim'
+call plug#end()
 
-call vundle#end()
 "syntax highlighting
 syntax enable
 
@@ -45,4 +51,16 @@ let python_hightlight_all=1
 colorscheme monokai
 
 " terminal to 256
-set t_co=256
+set t_co=256 
+
+" split screens
+set splitbelow
+set splitright
+
+" navigate between splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+
