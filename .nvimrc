@@ -11,6 +11,7 @@ Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-multiple-cursors'
 Plug 'ivanov/vim-ipython'
 Plug 'klen/python-mode'
+Plug 'jalvesaq/Nvim-R'
 
 call plug#end()
 
